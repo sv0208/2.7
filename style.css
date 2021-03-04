@@ -1,0 +1,114 @@
+input.error { 
+    box-shadow: 0 0 6px 3px #ff0000; /** Красная рамка вокруг поля(input) при ошибке**/
+} 
+label.error { 
+    color: #ff0000; /** Меняем цвет текста при ошибке**/
+    font-weight: normal;
+    margin-left: 50px;  
+  
+}
+
+
+body{
+    margin: 250px auto 0 auto;
+    width: 375px;
+    height: 812px;
+
+background: url(Самолёт.jpg);
+}
+
+.Container {
+   
+    margin: 250px auto 0 auto;
+    text-align: center;
+    width: 375px;
+    height: 812px;
+   padding-bottom: 20px;
+}
+
+
+#name,#surname,#password,#return,#email,#date,#phone {
+   position: relative;
+margin-top: 20px; 
+width: 300px;
+height: 40px;
+background: rgba(238, 237, 233, 0.74);
+left: calc(50% - 300px/2 - 3.5px);
+border: 1px solid rgba(113, 113, 113, 0.5);
+border-radius: 20px;
+
+
+
+font-family: Georgia;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+align-items: center;
+
+color: #717171;
+padding-left: 17px;
+
+}
+
+form { 
+    background-image: url(airaplan.jpg);
+    position: absolute;
+width:  375px;
+height: 812px;
+
+}
+
+button {
+    position: absolute;
+width: 300px;
+height: 40px;
+left: calc(50% - 300px/2 + 0.5px);
+bottom: 124px;
+border-radius: 20px;
+
+background: #A5A39F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    position: absolute;
+width: 208px;
+height: 25px;
+left: calc(50% - 208px/2 - 0.5px);
+bottom: 7px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ffffff;
+}
+
+.polit {
+    position: absolute;
+    width: 250px;
+    height: 64px;
+    left: calc(50% - 242px/2 + 0.5px);
+    bottom: 50px;
+    
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    
+    color: #413A3A;  
+}
+
+.dws-input input:hover {
+    box-shadow: 0 0 6px 3px #FFFFFF;
+}
